@@ -36,21 +36,3 @@ var kInputDecorationDropDownMenue = InputDecoration(
   fillColor: Colors.grey.shade600,
   errorStyle: const TextStyle(color: Colors.yellow),
 );
-//API Notion
-// var kBaeraToken = 'secret_zHRSiQ1bHltlLkZ4zLwNEG5D9eTkrX69yY5YZccB5kc';
-// var kDbHabitId = '7f332bc0-1eba-480a-9121-4ed2a3d1b541';
-// var kUrlListHabit = 'https://api.notion.com/v1/databases/7f332bc0-1eba-480a-9121-4ed2a3d1b541/query';
-
-// var khttpHeader = {
-//   HttpHeaders.authorizationHeader: 'Bearer $kBaeraToken',
-//   'Content-Type': 'application/json',
-//   'Notion-Version': '2022-06-28'
-// };
-
-// var kUpdateMap = {
-//     'properties': {
-//       'HideHabit': {
-//         'number': 1,
-//       }
-//     },
-//   };
