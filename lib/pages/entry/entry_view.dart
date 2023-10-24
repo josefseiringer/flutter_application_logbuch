@@ -1,13 +1,12 @@
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_pdf/pages/settings/settings_controller.dart';
 import 'package:intl/intl.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'package:printing/printing.dart';
 import 'package:get/get.dart';
-import '../../constants.dart';
 import 'entry_controller.dart';
+import '../../constants.dart';
 import '../../pages/log/log_view.dart';
 
 class EntryPage extends GetView<EntryController> {
@@ -44,7 +43,7 @@ class EntryPage extends GetView<EntryController> {
         pageFormat: format,
         build: (context) {
           return pw.ListView(
-            padding: const pw.EdgeInsets.all(20),
+            padding: const pw.EdgeInsets.all(15),
             children: [
               pw.SizedBox(
                 width: double.infinity,
