@@ -11,7 +11,7 @@ import '../../constants.dart';
 
 class CarPage extends GetView<CarController> {
   static const namedRoute = '/car-page';
-  const CarPage({Key? key}) : super(key: key);
+  const CarPage({super.key});
 
   @override
   Widget build(BuildContext context) {

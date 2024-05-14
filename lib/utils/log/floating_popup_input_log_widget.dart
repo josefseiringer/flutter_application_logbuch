@@ -7,8 +7,8 @@ import '../my_text_form_field_widget.dart';
 
 class FloatingPopupWidgetLog extends StatelessWidget {
   const FloatingPopupWidgetLog({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

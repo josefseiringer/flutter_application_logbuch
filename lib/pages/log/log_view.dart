@@ -12,7 +12,7 @@ import '../../pages/entry/entry_view.dart';
 
 class LogPage extends GetView<LogController> {
   static const namedRoute = '/log-page';
-  const LogPage({Key? key}) : super(key: key);
+  const LogPage({super.key});
 
   @override
   Widget build(BuildContext context) {

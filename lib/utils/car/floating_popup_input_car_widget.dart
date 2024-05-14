@@ -5,8 +5,8 @@ import '../../../pages/car/car_controller.dart';
 
 class FloatingPopupWidgetCar extends StatelessWidget {
   const FloatingPopupWidgetCar({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

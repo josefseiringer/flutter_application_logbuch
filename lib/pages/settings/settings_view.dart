@@ -6,7 +6,7 @@ import './settings_controller.dart';
 
 class SettingsPage extends GetView<SettingsController> {
   static const namedRoute = '/settings-page';
-  const SettingsPage({Key? key}) : super(key: key);
+  const SettingsPage({super.key});
 
   @override
   Widget build(BuildContext context) {

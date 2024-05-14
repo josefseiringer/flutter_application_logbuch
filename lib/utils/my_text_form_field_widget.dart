@@ -6,11 +6,11 @@ class MyTextFormWidget extends StatelessWidget {
   final String? szHintText;
   final TextEditingController szInputStringController;
   const MyTextFormWidget({
-    Key? key,
+    super.key,
     required this.textInputType,
     required this.szHintText,
     required this.szInputStringController,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
